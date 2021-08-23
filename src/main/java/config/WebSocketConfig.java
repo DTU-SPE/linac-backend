@@ -13,7 +13,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		registry
 			.addEndpoint("/websockets")
-			.setAllowedOrigins("http://localhost:8081") //    http://localhost:8081 https://smarthomesimulator.herokuapp.com
+			.setAllowedOrigins("*") //    http://localhost:8081 https://smarthomesimulator.herokuapp.com
 			.withSockJS();
 	}
 
