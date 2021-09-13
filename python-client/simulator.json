@@ -1,0 +1,13 @@
+{
+   "clock":"2020-01-01T00:00:00.000000000",
+   "instantSimulation":true,
+   "relativeTime":1.0,
+   "mqttOutput":false,
+   "qualityOfService":0,
+   "mqttHost":"broker.hivemq.com",
+   "mqttPort":"1883",
+   "rootTopic":"smarthome",
+   "seed":null,
+   "csvOutput":false,
+   "csvFileName":"test"
+}

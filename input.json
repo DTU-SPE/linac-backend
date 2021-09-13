@@ -1,1 +1,0 @@
-{"input":"goto(4,4);goto(bed);goto(chair);interact(smartTV,ON);interact(smartTV,CHANNEL1);interact(smartTV,VOLUME_UP);interact(faucet1,TURN_ON);wait(3);interact(faucet1,TURN_OFF);"}
